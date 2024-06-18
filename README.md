@@ -9,8 +9,8 @@ The UI includes:
 - Sections for the recipe title, description, preparation time, ingredients, instructions, and nutritional information.
 
 ## Deployed Version
-Project UI [Simple Omelette Recipe live](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
-You can view the deployed version of the project [Simple Omelette Recipe live]([#](https://ephemeral-scone-bc284d.netlify.app/)).
+-  Project UI [Simple Omelette Recipe live](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+-  You can view the deployed version of the project [Simple Omelette Recipe live](https://ephemeral-scone-bc284d.netlify.app/).
 
 ## Technologies Used
 
