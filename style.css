@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    font-family: 'outfit';
+    --heading-color: #804831;
+    font-size: 15px;
+}
+
+.container{
+    background-color: white;
+    padding: 30px;
+    margin: 25px 0;
+    max-width: 40%;
+    border-radius: 10px;
+    min-height: 100vh;
+}
+.first-section{
+    margin: 20px 0;
+}
+.content img{
+    border-radius: 10px;
+    width: 100%;
+}
+main .first-section p{
+    margin: 12px 0 25px 0;
+}
+
+/* prepration */
+.preparation{
+    padding: 20px;
+}
+main .preparation h4{
+    color: #71354e;
+    margin-bottom: 5px;
+}
+main .preparation ul{
+    padding: 5px 5px 0 30px;
+}
+main .preparation ul li{
+    margin: 6px 0;
+}
+main .preparation ul li b{
+    margin-right: 5px;
+}
+
+/* Ingredients */
+.ingredients{
+    margin: 0 0 20px 0;
+}
+.ingredients h2{
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+.ingredients ul{
+    padding: 0 0 0 20px;
+}
+.ingredients ul li{
+    margin: 8px 0;
+}
+
+/* instructions */
+.instructions{
+    margin: 25px 0;
+}
+.instructions h2{
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+.instructions ol{
+    padding: 0 0 0 22px;
+}
+.instructions ol li{
+    margin: 8px 0;
+    line-height: 1.4rem;
+}
+
+/* nutrition */
+
+.nutrition{
+    margin: 20px 0;
+}
+.nutrition h2{
+    color: var(--heading-color);
+}
+
+.nutrition p{
+    margin: 10px 0;
+}
+
+/* .nutrition table{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+} */
+.nutrition table tr{
+    border-bottom: 1px solid #d5d2d2;
+}
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .nutrition th,
+  .nutrition td {
+    padding: 8px 12px;
+    text-align: left;
+  }
+  .nutrition th {
+    width: 20%; 
+  }
+  .nutrition td:nth-child(2) {
+    color: var(--heading-color);
+    font-weight: 600;
+  }
